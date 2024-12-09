@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a2e; /* Dark theme for visibility */
+  cursor: none; /* Hide cursor for clean effect */
+}
+
+.witch-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.witch {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('hover.png') no-repeat center/contain;
+  transition: transform 0.1s linear; /* Smooth follow effect */
+}
